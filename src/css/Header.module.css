@@ -1,0 +1,46 @@
+.nav{
+    
+    height: 80px;
+}
+
+.innerNav{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #18242A;
+    
+    
+}
+
+.logo img{
+    width: 130px;
+}
+
+.active{
+    border-bottom: 4px solid#91C691;
+}
+
+ul li{
+    padding-bottom: 15px;
+    
+    margin-left: 24px;
+}
+
+.getStarted{
+    border: 2px solid #91C691;
+    border-radius:50px ;
+    padding: 10px 30px  ;
+}

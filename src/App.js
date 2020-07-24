@@ -1,10 +1,14 @@
 import React from 'react';
 import Front from './components/Fornt'
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-    <Front/>
+    <div>
+      <Header/>
+      <Front/>
+    </div>
   );
 }
 
