@@ -15,6 +15,7 @@
 ul{
     list-style: none;
     display: flex;
+    align-items: baseline;
 }
 a{
     font-size: 18px;
@@ -30,17 +31,26 @@ a{
 }
 
 .active{
-    border-bottom: 4px solid#91C691;
+    border-bottom: 2px solid#91C691;
 }
 
 ul li{
-    padding-bottom: 15px;
-    
-    margin-left: 24px;
+    padding:0 5px 12px 5px;
+
+    margin-left: 54px;
 }
 
-.getStarted{
-    border: 2px solid #91C691;
+.getStarted  {
+    padding-top: 10px;
+}
+.getStarted a {
+    color: #91C691;
+    border: .01em solid #91C691;
     border-radius:50px ;
-    padding: 10px 30px  ;
+    padding: 20px 40px  ;
+}
+
+.getStarted i{
+    color: #91C691;
+    margin-left: 10px;
 }

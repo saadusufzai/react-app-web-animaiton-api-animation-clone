@@ -1,5 +1,5 @@
 import React from 'react';
-import Front from './components/Fornt'
+import Front from './components/Front'
 import './App.css';
 import Header from './components/Header';
 
