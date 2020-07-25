@@ -58,7 +58,7 @@ const {ref:f1 ,getAnimation} = useWebAnimations({
            </div>
 
             <div className={classes.video}>
-             <video autoPlay preload loop muted src="https://junto.digital/wp-content/uploads/2018/12/junto-digital-hero.webm" type="video/webm;codecs=&quot;vp8, vorbis&quot;"/>
+             <video poster={poster} autoPlay preload='true' loop muted src="https://junto.digital/wp-content/uploads/2018/12/junto-digital-hero.webm" type="video/webm;codecs=&quot;vp8, vorbis&quot;"/>
             </div> 
         </div>
     )

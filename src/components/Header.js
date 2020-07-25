@@ -28,14 +28,14 @@ const Header = () => {
     return (
         <nav className={classes.nav}>
             <div className={classes.innerNav}>
-                <div className={classes.logo}> <img src={logo}/></div>
+                <div className={classes.logo}> <img alt='logo' src={logo}/></div>
                 <div className={classes.menu}>
                     <ul>
-                        <li className={classes.active}><a  href='#' >Home</a></li>
-                        <li><a href='#'>About Us</a></li>
-                        <li><a href='#'>Blog</a></li>
-                        <li><a href='#'>Services</a> <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-                        <li onMouseEnter={()=>{play()}} onMouseLeave={()=>{stop()}} className={classes.getStarted} ><a href='#' >Get Started <i ref={ref} class="fa fa-arrow-right" aria-hidden="true"></i></a>  </li>
+                        <li className={classes.active}><a  href='./' >Home</a></li>
+                        <li><a href='./'>About Us</a></li>
+                        <li><a href='./'>Blog</a></li>
+                        <li><a href='./'>Services</a> <i className="fa fa-caret-down" aria-hidden="true"></i></li>
+                        <li onMouseEnter={()=>{play()}} onMouseLeave={()=>{stop()}} className={classes.getStarted} ><a href='./' >Get Started <i ref={ref} className="fa fa-arrow-right" aria-hidden="true"></i></a>  </li>
                     </ul>
                 </div>
 
